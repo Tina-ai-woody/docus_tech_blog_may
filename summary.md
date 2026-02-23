@@ -12,12 +12,11 @@
 ## 📂 目錄結構說明
 - **`/content`**: 所有的 Markdown 內容存放處，也是部落格的核心。
   - `index.md`: 首頁，使用 Docus 的 `::u-page-hero` 和 `::u-page-section` 組件構建。
-  - **`/blogs`**: 主要的文章分類：
-    - `ai/`: 探討 MCP、LLMs 等人工智慧技術。
+  - **主要的文章分類**（直接位於 `/content` 下）：
+    - `ai/`: 探討 MCP、LLMs、Docus AI 功能實作等人工智慧技術。
     - `web_dev/`: 涵蓋網路開發基礎（DOM, RESTful, JWT, WebSocket, SEO 等）。
     - `nuxt/`: 深入分析 Nuxt 目錄結構、Nitro 引擎、前端建置等。
     - `python/`: 介紹 `uv` 工具、Memory Buffer 等 Python 技術。
-  - **`/1.getting-started` & `/2.essentials`**: 繼承自 Docus 的基礎文件範例，提供 Markdown 語法與組件使用教學。
 - **`/public`**: 存放靜態資源，如 Favicon 和展示圖片。
 - **`/skills`**: 專案內置的 Agent Skills，目前包含 `create-docs`，用於文件系統的自動化管理。
 
@@ -25,12 +24,12 @@
 在 Docus 系統中，建立文章非常直觀，主要分為以下步驟：
 
 1. **選擇分類目錄**:
-   - 導航至 `content/blogs/` 下的相應分類（如 `ai/`, `web_dev/` 等）。
+   - 導航至 `content/` 下的相應分類（如 `ai/`, `web_dev/`, `nuxt/`, `python/` 等）。
    - 如果需要新分類，直接建立新資料夾即可。
 
 2. **建立 Markdown 檔案**:
    - 在該目錄下建立 `.md` 檔案（例如：`my-new-post.md`）。
-   - 檔案名稱將直接對應到 URL 路徑（例如：`/blogs/ai/my-new-post`）。
+   - 檔案名稱將直接對應到 URL 路徑（例如：`/ai/my-new-post`）。
 
 3. **設定 Frontmatter**:
    - 在檔案最上方加入 YAML 格式的設定，用於 SEO、分類、標籤及日期：
