@@ -12,8 +12,14 @@ tags:
 
 # Web 前端開發
 
-Web 前端技術日新月異。本專區專注於核心技術的探討，從基礎的 DOM 操作到複雜的前端架構設計。
+Web 前端技術日新月異。本專區將技術內容重新分類，涵蓋從基礎的瀏覽器原理到現代雲端架構的各個面向。
 
-## 本區文章
+## 技術分類
 
-- [DOM 操作深入解析](/blogs/web_dev/dom) - 掌握高效操作 DOM 的技巧，避免常見的效能瓶頸。
+- **[網絡與通訊](/blogs/web_dev/network)** - HTTP, REST, WebSocket, SSE
+- **[認證與安全](/blogs/web_dev/security)** - Auth, JWT, SSH
+- **[瀏覽器與渲染](/blogs/web_dev/browser)** - DOM, SSR/CSR, Storage
+- **[圖形技術](/blogs/web_dev/graphics)** - WebGL, Three.js
+- **[SEO 與規範](/blogs/web_dev/seo)** - SEO, Robots.txt
+- **[架構與配置](/blogs/web_dev/infrastructure)** - Docker, K8s, YAML
+
