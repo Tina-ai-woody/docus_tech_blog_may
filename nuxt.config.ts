@@ -3,13 +3,15 @@ import { defineNuxtConfig } from 'nuxt/config'
 export default defineNuxtConfig({
   css: ['katex/dist/katex.min.css'],
   content: {
-    markdown: {
-      remarkPlugins: {
-        'remark-math': {}
-      },
-      rehypePlugins: {
-        'rehype-katex': {
-          strict: false
+    build: {
+      markdown: {
+        remarkPlugins: {
+          'remark-math': {}
+        },
+        rehypePlugins: {
+          'rehype-katex': {
+            strict: false
+          }
         }
       }
     },
